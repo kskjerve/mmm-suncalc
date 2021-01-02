@@ -26,9 +26,9 @@ Magic Mirror Module display sunrise and sunset in text on your mirror
 
 ## Installation
 
-Go to your MagicMirror folder.
+Go to your MagicMirror's modules folder.
 
-`cd MagicMirror`
+`cd MagicMirror/modules`
 
 Clone the repository
 
@@ -44,7 +44,7 @@ Add module configuration to config.js.
 
 ```js
 {
-  module: 'mmmm-suncalc',
+  module: 'mmm-suncalc',
     config: {
     latitude: 60.12345,
     longitude: 10.12345,
